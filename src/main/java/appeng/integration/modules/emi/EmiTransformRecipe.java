@@ -21,7 +21,7 @@ import appeng.recipes.transform.TransformRecipe;
 
 class EmiTransformRecipe extends BasicEmiRecipe {
     public static final EmiRecipeCategory CATEGORY = new AppEngRecipeCategory("item_transformation",
-            EmiStack.of(AEItems.CERTUS_QUARTZ_CRYSTAL_CHARGED), ItemModText.TRANSFORM_CATEGORY);
+            EmiStack.of(AEItems.NETHER_QUARTZ_CRYSTAL_CHARGED), ItemModText.TRANSFORM_CATEGORY);
 
     private final TransformRecipe recipe;
 

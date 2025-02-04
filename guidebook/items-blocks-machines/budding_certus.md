@@ -43,7 +43,7 @@ cut-and-paste the flawless budding blocks around.
 ## Recipes
 
 Flawed, chipped, and damaged budding certus can be crafted by throwing the previous tier of budding block (or a <ItemLink id="quartz_block" />)
-in water with one or more <ItemLink id="charged_certus_quartz_crystal" />.
+in water with one or more <ItemLink id="charged_nether_quartz_crystal" />.
 
 Flawless budding certus cannot be crafted, only found in the world.
 

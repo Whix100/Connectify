@@ -88,7 +88,7 @@ public class ExternalEnergyTestPlots {
                 .thenWaitUntil(helper::checkAllInitialized)
                 .thenWaitUntil(() -> {
                     var content = helper.countContainerContentAt(ORIGIN);
-                    helper.assertEquals(ORIGIN, 1L, content.get(AEItemKey.of(AEItems.CERTUS_QUARTZ_CRYSTAL_CHARGED)));
+                    helper.assertEquals(ORIGIN, 1L, content.get(AEItemKey.of(AEItems.NETHER_QUARTZ_CRYSTAL_CHARGED)));
                 })
                 // Ensure that after 1 second, the grid still has no energy
                 .thenExecuteAfter(20, () -> checkGridHasNoEnergy(helper))

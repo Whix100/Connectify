@@ -27,7 +27,7 @@ trade)
 | Novice     | 3 <ItemLink id="minecraft:emerald" />             | 4 <ItemLink id="certus_quartz_crystal" />       |
 | Novice     | 2 <ItemLink id="minecraft:emerald" />             | 1 <ItemLink id="meteorite_compass" />           |
 |            |                                                   |                                                 |
-| Apprentice | 3 <ItemLink id="charged_certus_quartz_crystal" /> | 1 <ItemLink id="minecraft:emerald" />           |
+| Apprentice | 3 <ItemLink id="charged_nether_quartz_crystal" /> | 1 <ItemLink id="minecraft:emerald" />           |
 | Apprentice | 5 <ItemLink id="silicon" />                       | 1 <ItemLink id="minecraft:emerald" />           |
 | Apprentice | 5 <ItemLink id="minecraft:emerald" />             | 8 <ItemLink id="sky_stone_block" />             |
 |            |                                                   |                                                 |

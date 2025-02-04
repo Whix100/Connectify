@@ -217,7 +217,7 @@ public class CraftingRecipes extends AE2RecipeProvider {
                 .define('i', ConventionTags.IRON_INGOT)
                 .define('f', AEBlocks.FLUIX_BLOCK)
                 .define('c', ConventionTags.COPPER_INGOT)
-                .define('q', AEItems.CERTUS_QUARTZ_CRYSTAL_CHARGED)
+                .define('q', AEItems.NETHER_QUARTZ_CRYSTAL_CHARGED)
                 .unlockedBy(getHasName(AEBlocks.FLUIX_BLOCK), has(AEBlocks.FLUIX_BLOCK))
                 .save(consumer, AppEng.makeId("network/crystal_resonance_generator"));
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, AEBlocks.WIRELESS_ACCESS_POINT)
@@ -706,7 +706,7 @@ public class CraftingRecipes extends AE2RecipeProvider {
                 .save(consumer, AppEng.makeId("network/parts/level_emitter"));
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, AEParts.ENERGY_LEVEL_EMITTER)
                 .requires(Items.REDSTONE_TORCH)
-                .requires(AEItems.CERTUS_QUARTZ_CRYSTAL_CHARGED)
+                .requires(AEItems.NETHER_QUARTZ_CRYSTAL_CHARGED)
                 .requires(AEItems.CALCULATION_PROCESSOR)
                 .unlockedBy("has_calculation_processor", has(AEItems.CALCULATION_PROCESSOR))
                 .save(consumer, AppEng.makeId("network/parts/energy_level_emitter"));
@@ -833,9 +833,9 @@ public class CraftingRecipes extends AE2RecipeProvider {
                 .pattern("a  ")
                 .pattern(" b ")
                 .pattern("  b")
-                .define('a', AEItems.CERTUS_QUARTZ_CRYSTAL_CHARGED)
+                .define('a', AEItems.NETHER_QUARTZ_CRYSTAL_CHARGED)
                 .define('b', ConventionTags.IRON_INGOT)
-                .unlockedBy("has_charged_certus_quartz_crystal", has(AEItems.CERTUS_QUARTZ_CRYSTAL_CHARGED))
+                .unlockedBy("has_charged_nether_quartz_crystal", has(AEItems.NETHER_QUARTZ_CRYSTAL_CHARGED))
                 .save(consumer, AppEng.makeId("tools/misctools_charged_staff"));
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, AEItems.ENTROPY_MANIPULATOR)
                 .pattern("ab ")

@@ -55,7 +55,7 @@ public class InitVillager {
         buyItems(trades, 1, AEItems.CERTUS_QUARTZ_CRYSTAL, 3, 4, 10);
         buyItems(trades, 1, AEItems.METEORITE_COMPASS, 2, 1, 5);
 
-        sellItems(trades, 2, AEItems.CERTUS_QUARTZ_CRYSTAL_CHARGED, 3, 10, 15);
+        sellItems(trades, 2, AEItems.NETHER_QUARTZ_CRYSTAL_CHARGED, 3, 10, 15);
         sellItems(trades, 2, AEItems.SILICON, 5, 8, 13);
         buyItems(trades, 2, AEBlocks.SKY_STONE_BLOCK, 5, 8, 20);
 

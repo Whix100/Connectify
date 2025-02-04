@@ -129,7 +129,7 @@ It works similarly to the cluster breaker.
    because the only storage on the subnet is the <ItemLink id="storage_bus" />, filtered to <ItemLink id="quartz_block" />.
    The plane needs to have silk touch, so the budding block won't degrade upon being broken, and thus the plane won't break it prematurely.
 2. The <ItemLink id="storage_bus" /> stores the certus quartz block in the spent
-   buddng certus barrel, you will have to manually throw it in water with <ItemLink id="charged_certus_quartz_crystal" /> to refresh it.
+   buddng certus barrel, you will have to manually throw it in water with <ItemLink id="charged_nether_quartz_crystal" /> to refresh it.
 
 ### Budding Block Placer
 

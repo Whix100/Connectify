@@ -32,7 +32,7 @@ public class TransformCategory implements DisplayCategory<TransformRecipeWrapper
     private final Renderer icon;
 
     public TransformCategory() {
-        icon = EntryStacks.of(AEItems.CERTUS_QUARTZ_CRYSTAL_CHARGED);
+        icon = EntryStacks.of(AEItems.NETHER_QUARTZ_CRYSTAL_CHARGED);
     }
 
     @Override

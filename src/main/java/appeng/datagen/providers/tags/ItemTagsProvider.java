@@ -84,7 +84,7 @@ public class ItemTagsProvider extends net.minecraft.data.tags.ItemTagsProvider i
 
         tag(ConventionTags.ALL_CERTUS_QUARTZ)
                 .addTag(ConventionTags.CERTUS_QUARTZ)
-                .add(AEItems.CERTUS_QUARTZ_CRYSTAL_CHARGED.asItem());
+                .add(AEItems.NETHER_QUARTZ_CRYSTAL_CHARGED.asItem());
         tag(ConventionTags.ALL_FLUIX)
                 .add(AEItems.FLUIX_CRYSTAL.asItem());
         tag(ConventionTags.ALL_NETHER_QUARTZ)
@@ -92,7 +92,7 @@ public class ItemTagsProvider extends net.minecraft.data.tags.ItemTagsProvider i
         tag(ConventionTags.ALL_QUARTZ)
                 .addTag(ConventionTags.NETHER_QUARTZ)
                 .addTag(ConventionTags.CERTUS_QUARTZ)
-                .add(AEItems.CERTUS_QUARTZ_CRYSTAL_CHARGED.asItem());
+                .add(AEItems.NETHER_QUARTZ_CRYSTAL_CHARGED.asItem());
 
         for (AEColor color : AEColor.values()) {
             tag(ConventionTags.SMART_DENSE_CABLE).add(AEParts.SMART_DENSE_CABLE.item(color));
@@ -195,7 +195,7 @@ public class ItemTagsProvider extends net.minecraft.data.tags.ItemTagsProvider i
                 .add(AEItems.FLUIX_CRYSTAL.asItem());
         tag(ConventionTags.CERTUS_QUARTZ)
                 .add(AEItems.CERTUS_QUARTZ_CRYSTAL.asItem())
-                .add(AEItems.CERTUS_QUARTZ_CRYSTAL_CHARGED.asItem());
+                .add(AEItems.NETHER_QUARTZ_CRYSTAL_CHARGED.asItem());
 
         tag(ConventionTags.DUSTS)
                 .add(AEItems.CERTUS_QUARTZ_DUST.asItem())
@@ -205,7 +205,7 @@ public class ItemTagsProvider extends net.minecraft.data.tags.ItemTagsProvider i
 
         tag(ConventionTags.GEMS)
                 .add(AEItems.CERTUS_QUARTZ_CRYSTAL.asItem())
-                .add(AEItems.CERTUS_QUARTZ_CRYSTAL_CHARGED.asItem())
+                .add(AEItems.NETHER_QUARTZ_CRYSTAL_CHARGED.asItem())
                 .add(AEItems.FLUIX_CRYSTAL.asItem());
 
         // Fabric replacement for ToolActions for now

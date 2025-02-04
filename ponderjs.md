@@ -342,7 +342,7 @@ scene.world.modifyTileNBT([2, 1, 2], nbt => {
     // Put a *charged* crystal in
     nbt.inv = {
         item0: {
-            id: 'ae2:charged_certus_quartz_crystal',
+            id: 'ae2:charged_nether_quartz_crystal',
             Count: 1
         }
     };

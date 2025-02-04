@@ -27,7 +27,7 @@ find them in [meteorites](../ae2-mechanics/meteorites.md).
 
 Every time a bud grows by another stage, the budding block has a chance to degrade by one tier, eventually turning into
 a plain certus quartz block. They can be repaired (and new budding blocks created) by throwing the budding block (or a
-certus quartz block) in water with one or more <ItemLink id="charged_certus_quartz_crystal" />.
+certus quartz block) in water with one or more <ItemLink id="charged_nether_quartz_crystal" />.
 
 <RecipeFor id="damaged_budding_quartz" />
 

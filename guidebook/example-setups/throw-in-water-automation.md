@@ -14,7 +14,7 @@ Some recipes require items to be thrown into water (though a similar setup can b
 This can be automated with a <ItemLink id="formation_plane" />, <ItemLink id="annihilation_plane" />, and some supporting
 infrastructure (this is essentially 2 modified [pipe subnets](pipe-subnet.md)).
 
-This setup is meant to be used in combination with [charger automation](charger-automation.md) to provide the <ItemLink id="charged_certus_quartz_crystal" />s.
+This setup is meant to be used in combination with [charger automation](charger-automation.md) to provide the <ItemLink id="charged_nether_quartz_crystal" />s.
 
 <GameScene zoom="6" interactive={true}>
   <ImportStructure src="../assets/assemblies/throw_in_water.snbt" />

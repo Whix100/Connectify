@@ -193,7 +193,7 @@ public final class AEItemIds {
     /// The following items were previously part of ApiItems
     ///
     public static final ResourceLocation CERTUS_QUARTZ_CRYSTAL = id("certus_quartz_crystal");
-    public static final ResourceLocation CERTUS_QUARTZ_CRYSTAL_CHARGED = id("charged_certus_quartz_crystal");
+    public static final ResourceLocation NETHER_QUARTZ_CRYSTAL_CHARGED = id("charged_nether_quartz_crystal");
     public static final ResourceLocation CERTUS_QUARTZ_DUST = id("certus_quartz_dust");
     public static final ResourceLocation SILICON = id("silicon");
     public static final ResourceLocation MATTER_BALL = id("matter_ball");

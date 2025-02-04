@@ -48,7 +48,7 @@ public class ItemModelProvider extends net.neoforged.neoforge.client.model.gener
         storageCell(AEItems.ITEM_CELL_64K, "item/item_storage_cell_64k");
         storageCell(AEItems.ITEM_CELL_256K, "item/item_storage_cell_256k");
         flatSingleLayer(AEItems.CERTUS_QUARTZ_CRYSTAL, "item/certus_quartz_crystal");
-        flatSingleLayer(AEItems.CERTUS_QUARTZ_CRYSTAL_CHARGED, "item/certus_quartz_crystal_charged");
+        flatSingleLayer(AEItems.NETHER_QUARTZ_CRYSTAL_CHARGED, "item/nether_quartz_crystal_charged");
         flatSingleLayer(AEItems.CERTUS_QUARTZ_DUST, "item/certus_quartz_dust");
         flatSingleLayer(AEItems.CERTUS_QUARTZ_KNIFE, "item/certus_quartz_cutting_knife");
         flatSingleLayer(AEItems.CERTUS_QUARTZ_WRENCH, "item/certus_quartz_wrench");

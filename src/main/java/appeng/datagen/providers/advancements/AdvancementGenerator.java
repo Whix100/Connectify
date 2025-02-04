@@ -116,7 +116,7 @@ public class AdvancementGenerator implements AdvancementProvider.AdvancementGene
 
         var chargedQuartz = Advancement.Builder.advancement()
                 .display(
-                        AEItems.CERTUS_QUARTZ_CRYSTAL_CHARGED,
+                        AEItems.NETHER_QUARTZ_CRYSTAL_CHARGED,
                         localization.component("achievement.ae2.ChargedQuartz", "Shocking"),
                         localization.component("achievement.ae2.ChargedQuartz.desc", "Charge Quartz with a Charger"),
                         null /* background */,
@@ -127,7 +127,7 @@ public class AdvancementGenerator implements AdvancementProvider.AdvancementGene
                 )
                 .parent(charger)
                 .addCriterion("certus",
-                        InventoryChangeTrigger.TriggerInstance.hasItems(AEItems.CERTUS_QUARTZ_CRYSTAL_CHARGED))
+                        InventoryChangeTrigger.TriggerInstance.hasItems(AEItems.NETHER_QUARTZ_CRYSTAL_CHARGED))
                 .save(consumer, "ae2:main/charged_quartz");
 
         var pressesBuilder = Advancement.Builder.advancement()

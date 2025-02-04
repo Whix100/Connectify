@@ -14,7 +14,7 @@ item_ids:
 
 <ItemImage id="charged_staff" scale="4" />
 
-The Charged Staff is a stick with a <ItemLink id="charged_certus_quartz_crystal" /> on the end. It does 6 damage, using 300 AE
+The Charged Staff is a stick with a <ItemLink id="charged_nether_quartz_crystal" /> on the end. It does 6 damage, using 300 AE
 per attack.
 
 Its energy can be recharged in a <ItemLink id="charger" />.

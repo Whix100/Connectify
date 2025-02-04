@@ -46,7 +46,7 @@ There are 4 tiers of budding certus blocks: Flawless, Flawed, Chipped, and Damag
 
 Every time a bud grows by another stage, the budding block has a chance to degrade by one tier, eventually turning into
 a plain certus quartz block. They can be repaired (and new budding blocks created) by throwing the budding block (or a
-certus quartz block) in water with one or more <ItemLink id="charged_certus_quartz_crystal" />.
+certus quartz block) in water with one or more <ItemLink id="charged_nether_quartz_crystal" />.
 
 <RecipeFor id="damaged_budding_quartz" />
 
@@ -68,9 +68,9 @@ Harvesting the certus automatically is [described here](example-setups/simple-ce
 
 ## A Quick Aside on Fluix
 
-Another material you will need is Fluix, which you have already encountered in making growth accelerators. It is made by throwing charged certus, redstone, and nether quartz in water. Doing this automatically is "left as an exercise for the reader."
+Another material you will need is Fluix, which you have already encountered in making growth accelerators. It is made by throwing charged nether, redstone, and nether quartz in water. Doing this automatically is "left as an exercise for the reader."
 
-The <ItemLink id="charger" /> is required to produce <ItemLink id="charged_certus_quartz_crystal" />., if you haven't made one already.
+The <ItemLink id="charger" /> is required to produce <ItemLink id="charged_nether_quartz_crystal" />., if you haven't made one already.
 
 ## Inscribing Some Processors
 
